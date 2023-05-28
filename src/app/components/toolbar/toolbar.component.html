@@ -1,19 +1,26 @@
 <div class="container-toolbar">
-    <p class="my-name">Thagner Moreira Uramoto</p>
-    <span>
+    <div class="my-medias">
+        <p class="my-name">Thagner Moreira Uramoto</p>
+        <span class="dev-links">
+            <img src="assets/icons/linkedin_icon.png" alt="LinkedIn Icon" (click)="linkedIn()">
+            <img src="assets/icons/github_icon.svg" alt="LinkedIn Icon" (click)="gitHub()">
+        </span>
+    </div>
+    
+    <a [routerLink]="['/news', languageEnum.Angular]" routerLinkActive="router-link-active">
         <img src="assets/icons/angular_icon.png" alt="Angular icon">
         Angular
-    </span>
-    <span>
+    </a>
+    <a [routerLink]="['/news', languageEnum.Delphi]" routerLinkActive="router-link-active" >
         <img src="assets/icons/delphi_icon.png" alt="Delphi icon" >
         Delphi
-    </span>
-    <span>
+    </a>
+    <a [routerLink]="['/news', languageEnum.CSharp]" routerLinkActive="router-link-active">
         <img src="assets/icons/csharp_icon.png" alt="C# icon">
         C#
-    </span>
-    <span>
+    </a>
+    <a [routerLink]="['/news', languageEnum.Kotlin]" routerLinkActive="router-link-active">
         <img src="assets/icons/kotlin_icon.png" alt="Kotlin icon">
         Kotlin
-    </span>
+    </a>
 </div>

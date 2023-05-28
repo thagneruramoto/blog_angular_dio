@@ -1,0 +1,31 @@
+.container-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    width: 95%;
+    height: 98%;
+    margin: auto;
+    padding: 32px;
+    background-color: #eaeaea;
+    overflow: auto;
+
+    .title {
+        font-weight: 900;
+        font-size: xx-large;
+    }
+
+    .description {
+        font-weight: 500;
+        font-size: large;
+        white-space: pre-wrap;
+        text-indent: 40px;
+    }
+
+    img {
+        max-width: 480px;
+        max-height: 480px;
+    }
+}
+

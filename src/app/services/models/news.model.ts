@@ -1,6 +1,8 @@
+import { LanguageEnum } from "../enums/language.enum"
+
 export class News {
+    language: LanguageEnum | undefined
     title: string = ""
-    subTitle: string = ""
     description: string = ""
     image: string = ""
 }

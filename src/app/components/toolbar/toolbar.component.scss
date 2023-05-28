@@ -4,9 +4,10 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+    border-top: 8px solid yellow;
 }
 
-.container-toolbar span {
+.container-toolbar a {
     font-weight: 500;
     text-decoration: underline;
     display: flex;
@@ -17,6 +18,7 @@
 .container-toolbar img {
     width: 24x;
     height: 24px;
+    cursor: pointer;
 }
 
 p.my-name {
@@ -24,4 +26,16 @@ p.my-name {
     font-weight: 700;
     // text-transform: uppercase;
     color: black;
+}
+
+.my-medias {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dev-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

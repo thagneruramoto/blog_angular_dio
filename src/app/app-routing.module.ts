@@ -5,10 +5,7 @@ import { NewsComponent } from './pages/news/news.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'angular', component: NewsComponent},
-  {path: 'delphi', component: NewsComponent},
-  {path: 'kotlin', component: NewsComponent},
-  {path: 'csharp', component: NewsComponent},
+  {path: 'news/:language', component: NewsComponent},
 ];
 
 @NgModule({
