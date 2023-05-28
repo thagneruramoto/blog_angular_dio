@@ -1,0 +1,27 @@
+.container-toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.container-toolbar span {
+    font-weight: 500;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-toolbar img {
+    width: 24x;
+    height: 24px;
+}
+
+p.my-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    // text-transform: uppercase;
+    color: black;
+}
